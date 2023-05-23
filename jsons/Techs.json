@@ -219,7 +219,6 @@
 			{
 				"name": "Sedentary Lifestyle",
 				"row": 5,
-				"uniques": ["Free Technology"],
 				"prerequisites": [ "Fishing", "Mysticism", "Pottery", "Dog Domestication", "Obsidian Tools" ]
 			}
 		]
@@ -404,7 +403,7 @@
 			{
 				"name": "Writing",
 				"row": 5,
-				"uniques": [ "[+1 Science] from every [Peasant]", "Free Technology" ],
+				"uniques": [ "[+1 Science] from every [Peasant]" ],
 				"prerequisites": [ "The Wheel", "Irrigation", "Sailing" ]
 
 			}
@@ -640,7 +639,6 @@
 
 				"name": "Greek Philosophy",
 				"row": 5,
-				"uniques": [ "Free Technology" ],
 				"prerequisites": [ "Optics", "Engineering", "Cartography", "Monarchy", "Meditation", "Monotheism" ],
 				"quote": ""
 			}
