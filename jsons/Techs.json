@@ -660,26 +660,26 @@
                          }, 
                          { 
                                  "name": "Concrete", 
-                                 "row": 2, 
+                                 "row": 6, 
                                  "prerequisites": [ "Greek Philosophy" ] 
   
                          }, 
                          { 
                                  "name": "Sport", 
-                                 "row": 5, 
+                                 "row": 7, 
                   
                                  "prerequisites": [ "Greek Philosophy" ] 
   
                          }, 
                          { 
                                  "name": "Seafaring", 
-                                 "row": 6, 
+                                 "row": 2, 
                                  "prerequisites": ["Greek Philosophy"] 
   
                          }, 
                          { 
                                  "name": "Drama", 
-                                 "row": 9,
+                                 "row": 8,
                                  "prerequisites": [ "Greek Philosophy" ] 
   
                          }
