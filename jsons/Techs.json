@@ -722,13 +722,13 @@
                                  "name": "Music", 
                                  "row": 9, 
                                  "uniques": [ "[+2 Culture] from every [Early Entertainer]", "[+2 Happiness] from every [Early Entertainer]" ], 
-                                 "prerequisites": [ "Theatre", "Sport" ] 
+                                 "prerequisites": [ "Drama", "Sport" ] 
   
                          }, 
                          { 
                                  "name": "Voting", 
                                  "row": 8, 
-                                 "prerequisites": [ Theatre", "Sport" ] 
+                                 "prerequisites": ["Drama", "Sport" ] 
   
                          } 
                  ] 
