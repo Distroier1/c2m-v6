@@ -701,33 +701,33 @@
                          }, 
                          { 
                                  "name": "Roman Concrete", 
-                                 "row": 2,
+                                 "row": 5,
                                  "prerequisites": [ "Concrete" ] 
   
                          }, 
                          { 
                                  "name": "Machinery",
-                                 "row": 5, 
+                                 "row": 6, 
    
                                  "prerequisites": [ "Concrete" ] 
   
                          }, 
                          { 
                                  "name": "Diplomacy", 
-                                 "row": 6, 
+                                 "row": 7, 
                                  "prerequisites": [ "Tactics", "Sport" ] 
   
                          }, 
                          { 
                                  "name": "Music", 
-                                 "row": 9, 
+                                 "row": 8, 
                                  "uniques": [ "[+2 Culture] from every [Early Entertainer]", "[+2 Happiness] from every [Early Entertainer]" ], 
                                  "prerequisites": [ "Drama", "Sport" ] 
   
                          }, 
                          { 
                                  "name": "Voting", 
-                                 "row": 8, 
+                                 "row": 9, 
                                  "prerequisites": ["Drama", "Sport" ] 
   
                          } 
