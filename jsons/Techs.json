@@ -685,4 +685,52 @@
                          }
                  ] 
          },
+        { 
+                 "columnNumber": 14, 
+                 "era": "Classical Era", 
+                 "techCost": 1150, 
+                 "buildingCost": 200, 
+                 "techs": [ 
+                         { 
+  
+                                 "name": Stirrups Working", 
+                                 "row": 4, 
+                                 "prerequisites": 
+[ "Tactics" ], 
+                                 "quote": "" 
+                         }, 
+                         { 
+                                 "name": "Roman Concrete", 
+                                 "row": 2,
+                                 "prerequisites": [ "Concrete" ] 
+  
+                         }, 
+                         { 
+                                 "name": "Machinery",
+                                 "row": 5, 
+   
+                                 "prerequisites": [ "Concrete" ] 
+  
+                         }, 
+                         { 
+                                 "name": "Diplomacy", 
+                                 "row": 6, 
+                                 "prerequisites": [ "Tactics", "Sport" ] 
+  
+                         }, 
+                         { 
+                                 "name": "Music", 
+                                 "row": 9, 
+                                 "uniques": [ "[+2 Culture] from every [Early Entertainer]", "[+2 Happiness] from every [Early Entertainer]" ], 
+                                 "prerequisites": [ "Theatre", "Sport" ] 
+  
+                         }, 
+                         { 
+                                 "name": "Voting", 
+                                 "row": 8, 
+                                 "prerequisites": [ Theatre", "Sport" ] 
+  
+                         } 
+                 ] 
+         },
 ]
