@@ -693,7 +693,7 @@
                  "techs": [ 
                          { 
   
-                                 "name": Stirrups Working", 
+                                 "name": Stirrups, 
                                  "row": 4, 
                                  "prerequisites": 
 [ "Tactics" ], 
