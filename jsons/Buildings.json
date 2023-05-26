@@ -1007,10 +1007,10 @@
                  "name": "Circus Maximus", 
                  "culture": 3,
                  "gold": 7,
-                 "happiness": 7,
+                 "happiness": 5,
                  "cost": 1100, 
                  "isWonder": true, 
-                 "requiredTech": "Sport"
+                 "requiredTech": "Sport",
 specialistSlots": {
 		               "Early Entertainer": 2
 	               	},
@@ -1022,32 +1022,86 @@ specialistSlots": {
  { 
                  "name": "Pont du Gard", 
                  "culture": 3,
-                 
+                 "food": 3,
                  "cost": 1100, 
                  "isWonder": true, 
-                 "requiredTech": "Concrete"
+                 "requiredTech": "Concrete",
 specialistSlots": {
-		               "Early Engineer": 2
+		               "Early Engineer": 1
 	               	},
                  "uniques": [ "[+15]% [Food] [in this city]" ],
          },
-{ 
+         { 
                  "name": "Pantheon", 
                  "culture": 5,
                  "happiness": 3,
                  "faith": 10,
                  "cost": 1300, 
                  "isWonder": true, 
-                 "requiredTech": "Roman Concrete"
+                 "requiredTech": "Roman Concrete",
 specialistSlots": {
 		               "Early Engineer": 1
 	               	},
-                 "uniques": [ "[+20]% [Faith] [in all cities]" ],
+                 "uniques": [ "[+15]% [Faith] [in all cities]" ],
+         },
+{ 
+                 "name": "Coloseum", 
+                 "culture": 5,
+                 "happiness": 10,
+                 "cost": 1300, 
+                 "isWonder": true, 
+                 "requiredTech": "Roman Concrete",
+specialistSlots": {
+		               "Early Engineer": 1
+	                 }
+         },
+        { 
+                 "name": "Temple of Arthemis", 
+                 "culture": 5,
+                 "happiness": 5,
+                 "food": 5,
+                 "cost": 1300, 
+                 "isWonder": true, 
+                 "requiredTech": "Diplomacy"
+         },
+ { 
+                 "name": "Antykithera Mechanism", 
+                 "culture": 1,
+                 "science": 10,
+                 "cost": 1300, 
+                 "isWonder": true, 
+"uniques": [ [Free Technology], "[+1 Science] from every [Early Engineer]", "[+1 Science] from every [Early Merchant]" ]
+                 "requiredTech": "Machinery"
+         },
+ { 
+                 "name": "Senate of Rome", 
+                 "culture": 7,
+                 "happiness": 3,
+                 "science": 3,
+                 "cost": 1500, 
+                 "isWonder": true, 
+"uniques": [ "[+2 Culture] from every [Noble]", "[+2 Happiness] from every [Noble]", "[+1 Science] from every [Noble]", [Free Social Policy] ],
+                 "requiredTech":  "Senate"
+         },
+  { 
+                 "name": "Via Appia", 
+                 "culture": 3,
+                 "gold": 10,
+                 "cost": 1500, 
+                 "isWonder": true, 
+                 "uniques": [ "[+10]% [Gold] [in all cities]"
+                 "requiredTech": "Stone Roads"
+         },
+ { 
+                 "name": "Silk Road", 
+                 "culture": 3,
+                 "gold": 10,
+                 "cost": 1500, 
+                 "isWonder": true, 
+                 "uniques": [ "[+10]% [Gold] [in all cities]"
+                 "requiredTech": "Stone Roads"
          },
 
-
-
-
 
 
 ]
