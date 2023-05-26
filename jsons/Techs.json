@@ -782,7 +782,7 @@
                  ] 
          },
  {  
-                  "columnNumber": 2²,  
+                  "columnNumber": 22,  
                   "era": "Classical Era",  
                   "techCost": 1500,  
                   "buildingCost": 200,  
@@ -830,5 +830,21 @@
                           
                   ]  
           }, 
-                       
+{
+		"columnNumber": 23,
+		"era": "Medieval Era",
+		"techCost": 1700,
+		"buildingCost": 250,
+		"techs": [
+
+			{
+				"name": "Feudalism",
+				"row": 5,
+				"uniques": [ "[+2 Production] from every [Peasant]", "[+2 Food] from every [Peasant]"],
+				"prerequisites": [ "Theology", "Geometry", "Chinese Philosophy", "Architecture", "Heavy Cavalry", "Greek Fire" ]
+
+			}
+		]
+	},
+        
  ]
