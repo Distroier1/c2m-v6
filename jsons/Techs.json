@@ -733,4 +733,46 @@
                          } 
                  ] 
          },
+ { 
+                 "columnNumber": 21, 
+                 "era": "Classical Era", 
+                 "techCost": 1300, 
+                 "buildingCost": 200, 
+                 "techs": [ 
+                         { 
+  
+                                 "name": Sea Trade, 
+                                 "row": 2, 
+                                 "prerequisites": 
+[ "Seafaring" ], 
+                                 "quote": "" 
+                         }, 
+                         { 
+                                 "name": "Stone Roads", 
+                                 "row": 5,
+                                 "prerequisites": [ "Roman Concrete", "Stirrups" ] 
+  
+                         }, 
+                         { 
+                                 "name": "Waterwheels",
+                                 "row": 6, 
+   
+                                 "prerequisites": [ "Machinery" ] 
+  
+                         }, 
+                         { 
+                                 "name": "Senate", 
+                                 "row": 7, 
+                                 "prerequisites": [ "Roman Concrete", "Diplomacy", "Voting" ] 
+  
+                         }, 
+                         { 
+                                 "name": "Aesthetics", 
+                                 "row": 8, 
+                                 "prerequisites": [ "Music" ] 
+  
+                         }, 
+                        
+                 ] 
+         },
 ]
