@@ -988,19 +988,66 @@
 		"cost": 250,
 		"requiredTech": "Bridge Building"
 	},
+        { 
+                 "name": "Theatre of Dionysus", 
+                 "culture": 10,
+                 "happiness": 7,
+                 "cost": 1100, 
+                 "isWonder": true, 
+                 "requiredTech": "Drama",
+                 "specialistSlots": {
+		               "Early Entertainer": 2
+	               	},
+		               "uniques": [
+                 "[+2 Culture] from every [Early Entertainer]",
+                 "[+2 Happiness] from every [Early Entertainer]" ]
+	},
+         },
+{ 
+                 "name": "Circus Maximus", 
+                 "culture": 3,
+                 "gold": 7,
+                 "happiness": 7,
+                 "cost": 1100, 
+                 "isWonder": true, 
+                 "requiredTech": "Sport"
+specialistSlots": {
+		               "Early Entertainer": 2
+	               	},
+		               "uniques": [
+                 "[+2 Gold] from every [Early Entertainer]",
+                 "[+2 Happiness] from every [Early Entertainer]" ]
+	},
+         },
+ { 
+                 "name": "Pont du Gard", 
+                 "culture": 3,
+                 
+                 "cost": 1100, 
+                 "isWonder": true, 
+                 "requiredTech": "Concrete"
+specialistSlots": {
+		               "Early Engineer": 2
+	               	},
+                 "uniques": [ "[+15]% [Food] [in this city]" ],
+         },
+{ 
+                 "name": "Pantheon", 
+                 "culture": 5,
+                 "happiness": 3,
+                 "faith": 10,
+                 "cost": 1300, 
+                 "isWonder": true, 
+                 "requiredTech": "Roman Concrete"
+specialistSlots": {
+		               "Early Engineer": 1
+	               	},
+                 "uniques": [ "[+20]% [Faith] [in all cities]" ],
+         },
 
 
 
-
-
-
-
-
-
-
-
-
-
+
 
 
 ]
