@@ -693,7 +693,7 @@
                  "techs": [ 
                          { 
   
-                                 "name": Stirrups, 
+                                 "name": "Stirrups", 
                                  "row": 3, 
                                  "prerequisites": 
 [ "Tactics" ], 
@@ -741,7 +741,7 @@
                  "techs": [ 
                          { 
   
-                                 "name": Sea Trade, 
+                                 "name": "Sea Trade", 
                                  "row": 2, 
                                  "prerequisites": 
 [ "Seafaring" ], 
@@ -781,4 +781,53 @@
                         
                  ] 
          },
-]
+ {  
+                  "columnNumber": 2²,  
+                  "era": "Classical Era",  
+                  "techCost": 1500,  
+                  "buildingCost": 200,  
+                  "techs": [  
+                          {  
+    
+                                  "name": Heavy Cavalry,  
+                                  "row": 2,  
+                                  "prerequisites":  
+ [ "Stirrups" ],  
+                                  "quote": ""  
+                          },  
+ { 
+        "name": "Greek Fire",  
+                                  "row": 4, 
+                                  "prerequisites": [ "Siege Machines", "Sea Trade" ]  
+    
+                          },  
+                          {  
+                                  "name": "Architecture",  
+                                  "row": 5, 
+                                  "prerequisites": [ "Siege Machines", "Senate" ]  
+    
+                          },  
+                          {  
+                                  "name": "Geometry", 
+                                  "row": 6,  
+     
+                                  "prerequisites": [ "Waterwheels" 
+, "Stone Roads"]  
+    
+                          },  
+                          {  
+                                  "name": "Theology",  
+                                  "row": 7,  
+                                  "prerequisites": [ "Aesthetics", "Senate" ]  
+    
+                          },  
+                          {  
+                                  "name": "Chinese Philosophy",  
+                                  "row": 8,  
+                                  "prerequisites": [ "Aesthetics", "Sea Trade" ]  
+    
+                          },  
+                          
+                  ]  
+          }, 
+ ]
