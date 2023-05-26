@@ -694,7 +694,7 @@
                          { 
   
                                  "name": Stirrups, 
-                                 "row": 4, 
+                                 "row": 3, 
                                  "prerequisites": 
 [ "Tactics" ], 
                                  "quote": "" 
