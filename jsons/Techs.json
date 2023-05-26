@@ -790,7 +790,7 @@
                           {  
     
                                   "name": "Heavy Cavalry",  
-                                  "row": 2,  
+                                  "row": 3,  
                                   "prerequisites":  
  [ "Stirrups" ],  
                                   "quote": ""  
