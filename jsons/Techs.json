@@ -789,7 +789,7 @@
                   "techs": [  
                           {  
     
-                                  "name": Heavy Cavalry,  
+                                  "name": "Heavy Cavalry",  
                                   "row": 2,  
                                   "prerequisites":  
  [ "Stirrups" ],  
